@@ -13,6 +13,8 @@ namespace TheUgly
     {
         public static void Main(string[] args)
         {
+            // spot me
+            // Endpoint=sb://sbn-charges-integration-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=AapCGRXrjZNb2rCaB+DqlP4+idimH/kybWivUNLRsEo=
             CreateHostBuilder(args).Build().Run();
         }
 
