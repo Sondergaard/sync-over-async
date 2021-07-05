@@ -15,6 +15,8 @@ namespace TheUgly
         {
             // spot me
             // DefaultEndpointsProtocol=https;AccountName=astssg;AccountKey=/+hUySQRxiNlNiWkeaSr305cxOY4IGoFfmGp3tto39boTCzdrPeOcnanQ4UQ225bToPGN7Kx9LyHHGlltW89Rg==;EndpointSuffix=core.windows.net
+            
+            string conn = "DefaultEndpointsProtocol=https;AccountName=astssg;AccountKey=/+hUySQRxiNlNiWkeaSr305cxOY4IGoFfmGp3tto39boTCzdrPeOcnanQ4UQ225bToPGN7Kx9LyHHGlltW89Rg==;EndpointSuffix=core.windows.net";
             CreateHostBuilder(args).Build().Run();
         }
 
