@@ -13,6 +13,7 @@ namespace TheGood
     {
         public static void Main(string[] args)
         {
+            var key = "/+hUySQRxiNlNiWkeaSr305cxOY4IGoFfmGp3tto39boTCzdrPeOcnanQ4UQ225bToPGN7Kx9LyHHGlltW89Rg==";
             CreateHostBuilder(args).Build().Run();
         }
 
