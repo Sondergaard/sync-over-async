@@ -14,7 +14,7 @@ namespace TheUgly
         public static void Main(string[] args)
         {
             // spot me
-            // Endpoint=sb://sbn-charges-integration-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=AapCGRXrjZNb2rCaB+DqlP4+idimH/kybWivUNLRsEo=
+            // DefaultEndpointsProtocol=https;AccountName=astssg;AccountKey=/+hUySQRxiNlNiWkeaSr305cxOY4IGoFfmGp3tto39boTCzdrPeOcnanQ4UQ225bToPGN7Kx9LyHHGlltW89Rg==;EndpointSuffix=core.windows.net
             CreateHostBuilder(args).Build().Run();
         }
 
